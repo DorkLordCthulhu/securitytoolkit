@@ -31,7 +31,7 @@ class MDA5Cracker:
 
 
 if __name__ == '__main__':
-    target = "ENTER HASH GIVEN"
+    target = input("ENTER HASH GIVEN")
     x = MDA5Cracker(target)
     (x.pull_from_doc())
     (x.translate_names())
